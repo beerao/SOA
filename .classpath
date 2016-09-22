@@ -72,4 +72,5 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xml-apis.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xwork-core-2.1.6.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
 </classpath>

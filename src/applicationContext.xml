@@ -35,20 +35,5 @@
 				<value>com/base/entity/Users.hbm.xml</value>
 			</list>
 		</property></bean>
-		<!-- dao 
-	<bean id="userDao" class="dao.impl.UsersDaoImpl">
-		<property name="sessionFactory">
-			<ref bean="sessionFactory" />
-		</property>
-	</bean>-->
-	<!-- 相当于service层 -->
-	<!-- biz 
-	<bean id="userBiz" class="biz.impl.UsersBizImpl">
-	<property name="userDao" ref="userDao"></property>
-	</bean>
-	-->
-	<!-- web 
-	<bean id="userAction" class="web.UsersAction">
-	<property name="biz" ref="userBiz"></property>
-	</bean>-->
+		
 	</beans>
