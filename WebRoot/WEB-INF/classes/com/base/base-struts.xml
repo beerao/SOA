@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC 
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" 
+    "http://struts.apache.org/dtds/struts-2.0.dtd"> 
+    <struts> 
+     <package name="base" namespace="/" extends="struts-default" >
+     <action name="list" class="userAction" method="findAll"> 
+  		<result name="success">/index.jsp</result> 
+  		<result name="error">/error.jsp</result> 
+  	</action> 
+  	<action name="save" class="userAction" method="save"> </action>
+  	<action name="delete" class="userAction" method="delete"> </action>
+  	<action name="update" class="userAction" method="update"> </action>
+     </package>
+    </struts>
+    
