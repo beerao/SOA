@@ -17,6 +17,6 @@ genVersionTag=false
 sessionFactoryId=sessionFactory
 basePersistenceClass=
 reSettingsFile=
-configFile=/struts2_ssh2/src/applicationContext.xml
+configFile=/soa/src/applicationContext.xml
 createConfigFile=false
 addLibs2Classpath=true

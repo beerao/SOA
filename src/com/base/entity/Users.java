@@ -1,6 +1,6 @@
 package com.base.entity;
 
-import org.hibernate.cfg.Configuration;
+//import org.hibernate.cfg.Configuration;
 
 /**
  * Users entity.

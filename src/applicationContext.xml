@@ -13,8 +13,8 @@
 		<property name="url"
 			value="jdbc:oracle:thin:@localhost:1521:orcl">
 		</property>
-		<property name="username" value="bbrun"></property>
-		<property name="password" value="bbrun"></property>
+		<property name="username" value="soa"></property>
+		<property name="password" value="soa"></property>
 	</bean>
 	<!-- dataSource注入到sessionFactory -->
 	<bean id="sessionFactory"
