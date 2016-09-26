@@ -1,6 +1,8 @@
 package com.base.entity;
 
+
 //import org.hibernate.cfg.Configuration;
+
 
 /**
  * Users entity.
@@ -10,7 +12,10 @@ package com.base.entity;
 
 public class Users implements java.io.Serializable {
 
+
 	// Fields123
+
+	
 
 	private Integer id;
 	private String name;

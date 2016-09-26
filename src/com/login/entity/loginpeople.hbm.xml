@@ -19,4 +19,6 @@
             <column name="PASSWORD" length="50" />
         </property>
     </class>
+    
+    <query name="queryLogin"></query>
 </hibernate-mapping>
