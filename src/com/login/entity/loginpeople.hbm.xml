@@ -20,5 +20,9 @@
         </property>
     </class>
     
-    <query name="queryLogin"></query>
+    <query name="queryLogin">
+    <![CDATA[
+    from 
+    ]]>
+    </query>
 </hibernate-mapping>

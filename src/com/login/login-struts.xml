@@ -4,6 +4,8 @@
     "http://struts.apache.org/dtds/struts-2.0.dtd"> 
     <struts> 
      <package name="login" namespace="/" extends="struts-default" >
+     <action name="juageLogin" class="loginAction" method="juageLogin">
+     </action>
      </package>
     </struts>
     

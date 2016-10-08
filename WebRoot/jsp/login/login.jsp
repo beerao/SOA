@@ -26,7 +26,7 @@ body {
 </style></head>
 
 <body>
-<form action="" name="login_form" method="post" >
+<form action="juageLogin.action" name="login_form" id="login_form" method="post" >
 <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td bgcolor="#e5f6cf">&nbsp;</td>
@@ -85,9 +85,12 @@ body {
 </table>
 </form>
 
-<map name="Map"><area shape="rect" coords="3,3,36,19" href="#"><area shape="rect" coords="40,3,78,18" href="#"></map></body>
-
+<map name="Map"><area shape="rect" coords="3,3,36,19" onclick="login();"><area shape="rect" coords="40,3,78,18" href="#"></map></body>
 <script type="text/javascript">
+function login(){
+var login_form = document.getElementById("login_form");
+login_form.submit();
+}
 </script>
 </body>
 </html>

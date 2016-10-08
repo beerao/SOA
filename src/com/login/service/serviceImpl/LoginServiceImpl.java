@@ -19,8 +19,8 @@ public class LoginServiceImpl implements LoginService{
 
 	public int queryLoginpeople(Loginpeople lg) {
 		// TODO Auto-generated method stub
-		
-		return 0;
+		int x =loginDao.queryLoginpeople(lg);
+		return x;
 	}
 	
 }
