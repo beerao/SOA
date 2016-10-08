@@ -20,7 +20,7 @@ public class UsersDaoImpl extends HibernateDaoSupport implements UsersDao {
 	public static final String PASSWORD = "password";
 
 	protected void initDao() {
-		// do nothing
+		// do nothing1111
 	}
 
 	/* (non-Javadoc)
